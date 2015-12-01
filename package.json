@@ -1,0 +1,28 @@
+{
+  "name": "lodash.forget",
+  "version": "0.0.1",
+  "description": "Lodash `forget` missing method",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imkrimerman/lodash.forget.git"
+  },
+  "keywords": [
+    "lodash",
+    "underscore",
+    "remove",
+    "forget",
+    "delete",
+    "destroy",
+    "recursive"
+  ],
+  "author": "Igor Krimerman <i.m.krimerman@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imkrimerman/lodash.forget/issues"
+  },
+  "homepage": "https://github.com/imkrimerman/lodash.forget#readme",
+  "dependencies": {
+    "lodash.has": "^3.2.1"
+  }
+}
