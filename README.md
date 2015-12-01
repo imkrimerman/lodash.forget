@@ -10,7 +10,7 @@ npm i lodash-forget --save
 ```
 ## How to use
 ```js
-var forget = require('lodash.forget')
+var forget = require('lodash-forget')
   , object = { 'a': { 'b': { 'c': 3, 'd': [1, 2] } } };
    
 forget(object, 'a.b.c');
