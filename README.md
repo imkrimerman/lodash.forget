@@ -4,6 +4,10 @@ Lodash includes great `has`, `get` and `set` methods, but _NOT_ one that will `r
 ## Introducing `forget`. 
 It supports same nested syntax as `get`, `set` and `has` in Lodash module and removes appropriate found value.
 
+## Installation
+```
+npm i lodash.forget --save
+```
 ## How to use
 ```js
 var forget = require('lodash.forget')
