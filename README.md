@@ -6,7 +6,7 @@ It supports same nested syntax as `get`, `set` and `has` in Lodash module and re
 
 ## Installation
 ```
-npm i lodash.forget --save
+npm i lodash-forget --save
 ```
 ## How to use
 ```js
