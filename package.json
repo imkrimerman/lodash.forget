@@ -1,6 +1,6 @@
 {
   "name": "lodash-forget",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Lodash `forget` missing method",
   "main": "forget.js",
   "repository": {
