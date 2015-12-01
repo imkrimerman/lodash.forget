@@ -1,5 +1,5 @@
 {
-  "name": "lodash.forget",
+  "name": "lodash-forget",
   "version": "0.0.1",
   "description": "Lodash `forget` missing method",
   "main": "index.js",
