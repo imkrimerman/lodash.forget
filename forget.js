@@ -17,17 +17,8 @@
       root.forget = forget(Object.prototype.hasOwnProperty);
     }
 
-}(this, function(has) {
+}(this, function(_) {
   'use strict';
-
-  /**
-   * Checks if `value` is object
-   * @param {*} value
-   * @returns {boolean}
-   */
-  function isObject (value) {
-    return !!value && typeof value == 'object' && Object.prototype.toString.call(value) === '[object Object]';
-  };
 
   /**
    * Converts string to array path
@@ -74,7 +65,7 @@
    * _.mixin({ forget: forget });
    */
   return function forget (obj, prop) {
-    if (! has(obj, prop)) return obj;
+    if (! _.has(obj, prop)) return obj;
     if (! ~prop.indexOf('.') && (! ~prop.indexOf('[') && ! ~prop.indexOf(']')))
       delete obj[prop];
     else {
@@ -88,7 +79,7 @@
 
       for (var i = 0; i < propsLen; i ++) parent = parent[props[i]];
       if (isArray(parent)) parent.splice(pathLastKey, 1);
-      else if (isObject(parent)) delete parent[pathLastKey];
+      else if (_.isObject(parent)) delete parent[pathLastKey];
     }
     return obj;
   };
