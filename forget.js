@@ -6,9 +6,9 @@
   'use strict';
 
   if (typeof module === 'object' && module.exports && typeof require === 'function')
-    module.exports = forget(require('lodash.has'));
+    module.exports = forget(require('lodash'));
   else if (typeof define === 'function' && typeof define.amd === 'object')
-    define(['lodash.has'], forget);
+    define(['lodash'], forget);
   else
     if (root._ && root._.mixin)
       root._.mixin({forget: forget(_.has)});

@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/imkrimerman/lodash.forget#readme",
   "dependencies": {
-    "lodash.has": "^3.2.1"
+    "lodash": "^3.10.1"
   }
 }
